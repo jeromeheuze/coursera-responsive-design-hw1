@@ -64,12 +64,31 @@ footer{
 
 @media screen and (min-width: 900px) {
 header, footer {
-  	background-color:none;
+  	background-color:transparent;
 }
 img {
 	display: block;
-	max-width: 100%;
+	width: 15vw;
+	float: left;
+	margin: 1rem 1rem 1rem 0;
+}
+h1::after {
+	content: "(I guess...)";
 }
 nav a:link, nav a:visited { color: #000; }
 section#left { float: left;}
+}
+
+@media print {
+	
+body{
+	background-color: #fff;
+}
+header, footer{
+	background-color:#fff;
+}
+nav a{
+	background-color: white;
+	border: none;
+}
 }
