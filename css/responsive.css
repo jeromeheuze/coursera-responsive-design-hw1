@@ -1,3 +1,15 @@
+@media screen and (min-width: 900px) {
+header, footer {
+  	background-color:none;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+nav a:link, nav a:visited { color: #000; }
+section#left { float: left;}
+}
+
 body{
 	margin: 1%;
 	padding:1%;
@@ -60,15 +72,4 @@ footer{
 	clear: both;
 	text-align:center;
 	text-transform: uppercase;
-}
-@media screen and (min-width: 900px) {
-header, footer {
-  	background-color:none;
-}
-img {
-	display: block;
-	max-width: 100%;
-}
-nav a:link, nav a:visited { color: #000; }
-section#left { float: left;}
 }
