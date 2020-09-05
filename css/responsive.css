@@ -70,4 +70,5 @@ img {
 	max-width: 100%;
 }
 nav a:link, nav a:visited { color: #000; }
+section#left { float: left;}
 }
